@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eef8ff;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    display: flex;
+    flex-direction: column; /* Makes the body a flex container */
+}
+
+main {
+    flex: 1; /* Allows the main content to grow and push the footer down */
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.col ul {
+    list-style: none; /* Remove bullets from the list */
+    padding: 0;
+  }
+  
+  .col ul li {
+    margin-bottom: 12px; /* Add space between the list items */
+  }
+  
+  .col ul li a {
+    text-decoration: none; /* Remove default underline from links */
+    color: white; /* Set the link color */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .col ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #00aced; /* Optional: Change color on hover */
+  }
+
+  .col{
+    flex-basis: 25%;
+    padding: 10px;
+
+  }
+  .col:nth-child(2), .col:nth-child(3){
+flex-basis: 15%;
+  }
+  
+.social-links {
+    display: flex;
+    flex-direction: column; /* Stack links in a column */
+    gap: 16px; /* Add space between the links */
+  }
+  
+  .social-links a {
+    display: flex; /* Align text and icon horizontally */
+    align-items: center; /* Vertically align text and icon */
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Set text color to white */
+  }
+  
+  .social-links a span {
+    margin-right: 10px; /* Add space between the text and the icon */
+    font-size: 16px; /* Adjust the size of the text */
+  }
+  
+  .social-links a:hover {
+    color: #00aced; /* Change color on hover */
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #fff; /* Adjust text color */
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  footer hr {
+    border: 0;
+    border-top: 1px solid #ccc; /* Add a thin gray line */
+    margin: 20px 0; /* Space above and below the line */
+  }
+  
+
