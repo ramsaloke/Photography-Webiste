@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="col">
           <h3 className='text-xl font-semibold mb-2'> Follow Us</h3>
           <div  className='social-links'>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/bgphotographybhanu/" target="_blank" rel="noopener noreferrer">
           <span>Instagram</span>
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>

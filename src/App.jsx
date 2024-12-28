@@ -7,11 +7,13 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Booknow from './pages/Booknow';
 import Footer from './Footer/Footer';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <>
     <main className="pt-16 p-4 flex-grow">
+    <ToastContainer></ToastContainer>
       <Navbar></Navbar>
       
       {/* Each section with a unique ID */}
