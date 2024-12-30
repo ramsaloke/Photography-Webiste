@@ -55,7 +55,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#book" className="hover:text-gray-200">
+            <a  href="#book" className="text-[#FF5733] hover:text-[#C70039] font-bold   transition-transform transform hover:scale-105">
               Book Now
             </a>
           </li>

@@ -14,30 +14,18 @@ import photo16 from '../assets/photos/photo16.avif';
 
 const Home = () => {
   return (
-    <div className='mt-6'>
-      <div className="flex relative">
-        <div className="w-1/2 h-[60vh] relative">
-          <img
-            src={pic2}
-            alt="Pic 2"
-            className="w-full h-full object-cover"
-          />
-          <h2 className="absolute bottom-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl font-bold text-center drop-shadow-lg text-pink-400">
-            Photography at Its Finest
-          </h2>
-        </div>
+    <div className='mt-2 '>
+   <div className="w-full h-[88vh] relative">
+  <img
+    src={pic3}
+    alt="Pic 3"
+    className="w-full h-full object-cover"
+  />
+  <h2 className="absolute bottom-2 sm:bottom-1 left-1/2 transform -translate-x-1/2 sm:-translate-y-1/2 text-2xl sm:text-3xl font-bold text-center drop-shadow-lg text-white">
+    Capturing Life’s Beautiful Moments
+  </h2>
+</div>
 
-        <div className="w-1/2 h-[60vh] relative">
-          <img
-            src={pic3}
-            alt="Pic 3"
-            className="w-full h-full object-cover"
-          />
-          <h2 className="absolute bottom-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold text-center drop-shadow-lg">
-            Capturing Life’s Beautiful Moments
-          </h2>
-        </div>
-      </div>
 
       <h1 className="font-semibold mt-4 text-4xl font-bold text-pink-300">Gallery</h1>
       <div className="image-container grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-4">

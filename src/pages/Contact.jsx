@@ -31,9 +31,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="text-center p-6 py-20 lg:px-32 text-black w-full overflow-hidden" id="Contact">
+    <div className="text-center p-6 py-10 lg:px-20 text-black w-full overflow-hidden" id="Contact">
       <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">Contact <span className="underline underline-offset-4 decoration-1 under font-light">With US</span></h1>
-      <p className="text-center text-gray-500 mb-6 max-w-80 mx-auto">Ready to create memories? Let&apos;s Contact Us without any Hesitation.</p> 
+      <p className="text-center text-gray-500 mb-2 max-w-80 mx-auto">Ready to create memories? Let&apos;s Contact Us without any Hesitation.</p> 
       
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto text-gray-600 pt-8">
         <div className="flex flex-wrap">

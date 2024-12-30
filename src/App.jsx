@@ -12,7 +12,7 @@ import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <>
-    <main className="pt-16 p-4 flex-grow">
+    <main className="pt-16  flex-grow ">
     <ToastContainer></ToastContainer>
       <Navbar></Navbar>
       
